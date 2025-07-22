@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/account.main.iml" filepath="$PROJECT_DIR$/.idea/modules/account.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/board-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/board-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example2-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/example2-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gathering.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gathering.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/information-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/information-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/msa.iml" filepath="$PROJECT_DIR$/.idea/msa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qna_service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/qna_service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/review-service.main.iml" />
+    </modules>
+  </component>
+</project>

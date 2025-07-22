@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account" options="-parameters" />
+      <module name="account.main" options="-parameters" />
+      <module name="account.test" options="-parameters" />
+      <module name="board-service" options="-parameters" />
+      <module name="board-service.main" options="-parameters" />
+      <module name="board-service.test" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server.main" options="-parameters" />
+      <module name="eureka-server.test" options="-parameters" />
+      <module name="example-service" options="-parameters" />
+      <module name="example-service.main" options="-parameters" />
+      <module name="example-service.test" options="-parameters" />
+      <module name="example2-service" options="-parameters" />
+      <module name="example2-service.main" options="-parameters" />
+      <module name="example2-service.test" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="gateway-service.main" options="-parameters" />
+      <module name="gateway-service.test" options="-parameters" />
+      <module name="gathering" options="-parameters" />
+      <module name="gathering.main" options="-parameters" />
+      <module name="gathering.test" options="-parameters" />
+      <module name="information-service" options="-parameters" />
+      <module name="information-service.main" options="-parameters" />
+      <module name="information-service.test" options="-parameters" />
+      <module name="qna_service" options="-parameters" />
+      <module name="qna_service.main" options="-parameters" />
+      <module name="qna_service.test" options="-parameters" />
+      <module name="review-service" options="-parameters" />
+      <module name="review-service.main" options="-parameters" />
+      <module name="review-service.test" options="-parameters" />
+    </option>
+  </component>
+</project>
