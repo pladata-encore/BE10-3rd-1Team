@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: account-service
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/msa_account?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    username: msa
+    password: 123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: eddi@123
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+feign:
+  hystrix:
+    enabled: false
+  httpclient:
+    enabled: true
+  jackson:
+    enabled: true
+
+logging:
+  level:
+    com.example.simple.client: DEBUG
+    feign: DEBUG
